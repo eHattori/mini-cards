@@ -1,3 +1,4 @@
+# typed: ignore
 class ApplicationController < ActionController::API
   unless Rails.env.production?
     around_action :n_plus_one_detection

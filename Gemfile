@@ -21,6 +21,9 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'ruby-prof'
   gem 'seed_dump'
+  gem 'sorbet'
+  gem 'sorbet-rails'
+  gem 'sorbet-runtime'
 end
 
 group :test do
