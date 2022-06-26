@@ -27,6 +27,8 @@ group :development, :test do
 end
 
 group :test do
+  gem 'simplecov', require: false
+  gem 'simplecov-cobertura', require: false
 end
 
 group :development do

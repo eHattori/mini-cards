@@ -56,6 +56,7 @@ GEM
     crass (1.0.6)
     debug_inspector (1.1.0)
     diff-lcs (1.5.0)
+    docile (1.4.0)
     dry-initializer (3.1.1)
     erubis (2.7.0)
     faker (2.21.0)
@@ -141,6 +142,7 @@ GEM
     rb-fsevent (0.11.1)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
+    rexml (3.2.5)
     rspec-core (3.11.0)
       rspec-support (~> 3.11.0)
     rspec-expectations (3.11.0)
@@ -164,6 +166,15 @@ GEM
     seed_dump (3.3.1)
       activerecord (>= 4)
       activesupport (>= 4)
+    simplecov (0.21.2)
+      docile (~> 1.1)
+      simplecov-html (~> 0.11)
+      simplecov_json_formatter (~> 0.1)
+    simplecov-cobertura (2.1.0)
+      rexml
+      simplecov (~> 0.19)
+    simplecov-html (0.12.3)
+    simplecov_json_formatter (0.1.4)
     sniffer (0.5.0)
       anyway_config (>= 1.0)
       dry-initializer (~> 3)
@@ -224,6 +235,8 @@ DEPENDENCIES
   rspec-rails
   ruby-prof
   seed_dump
+  simplecov
+  simplecov-cobertura
   sorbet
   sorbet-rails
   sorbet-runtime
